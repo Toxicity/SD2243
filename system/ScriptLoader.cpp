@@ -10,6 +10,7 @@ extern void AddSC_battleground();
 // custom
 extern void AddSC_Pnj_depart();
 extern void AddSC_Toxic_Air_Force();
+extern void AddSC_pnj_monture();
 
 // examples
 extern void AddSC_example_creature();
@@ -380,6 +381,7 @@ void AddScripts()
     // custom
     AddSC_Pnj_depart();
 	AddSC_Toxic_Air_Force();
+	AddSC_pnj_monture();
 	
     // examples
     AddSC_example_creature();
