@@ -49,7 +49,7 @@ bool GossipHello_Pnj_depart(Player* player, Creature* pCreature)
 
 	if(result)
 	{	
-	   if(begin == 0)
+	   if(begin == 0) //Nouveau joueur
 	    {	
            player->ADD_GOSSIP_ITEM( GOSSIP_ICON_CHAT, START_ADVENTURE  ,GOSSIP_SENDER_MAIN, 1000);
 	       player->ADD_GOSSIP_ITEM( GOSSIP_ICON_CHAT, START_LEVEL_UP   ,GOSSIP_SENDER_MAIN, 1001);
