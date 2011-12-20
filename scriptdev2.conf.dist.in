@@ -17,3 +17,212 @@ CharacterDatabaseInfo 	= "127.0.0.1;3306;wartop;28042004r;characters"
 
 pnj_Bienvenue.SpellMount = 6653
 pnj_Bienvenue.SpellMiniPet = 51716
+
+################################################################################################
+# Toxic_Air_Force custom config options
+#
+#    Toxic_Air_Force.ActifNonActif
+#        Cette option permet d'activer ou désactiver tous les TP
+#        Default: 0 - activer
+#                 1 - desactiver
+#
+#    Toxic_Air_Force.EnableZone
+#        Cette option permet d'activer les TP dans les zone personnalisées
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneDisco
+#        Cette option permet d'activer le TP dans votre zone disco
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneFFa
+#        Cette option permet d'activer le TP dans votre zone FFa
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneMetier
+#        Cette option permet d'activer le TP dans votre zone metier
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneCommune
+#        Cette option permet d'activer le TP dans votre zone commune
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneShopping
+#        Cette option permet d'activer le TP dans votre zone Shop
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneXP
+#        Cette option permet d'activer le TP dans votre zone XP
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableIledesMJ
+#        Cette option permet d'activer le TP dans une zone MJ "Ile des MJ"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableCubeBlanc
+#        Cette option permet dactiver le TP dans une zone MJ "Cube blanc"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneTeste
+#        Cette option permet d'activer le TP dans une zone MJ "Zone Teste"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneIron
+#        Cette option permet d'activer le TP dans une zone MJ "Vieux Ironforge"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneXPA
+#        Cette option permet d'activer le TP dans votre zone XP "1 - 80"
+#        (Desactiver celle-ci pour maintenance ou autre)
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneXPB
+#        Cette option permet d'activer le TP dans votre zone XP "81 - 100"
+#        (Desactiver celle-ci pour maintenance ou autre)
+#        Default: 1 - activer
+#                 0 - desactiver
+#   
+#    Toxic_Air_Force.EnableZoneXPC
+#        Cette option permet d'activer le TP dans votre zone XP "101 - 150"
+#        (Desactiver celle-ci pour maintenance ou autre)
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneXPD
+#        Cette option permet d'activer le TP dans votre zone XP "151 - 200"
+#        (Desactiver celle-ci pour maintenance ou autre)
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#    Toxic_Air_Force.EnableZoneXPE
+#        Cette option permet d'activer le TP dans votre zone XP "201 - 255"
+#        (Desactiver celle-ci pour maintenance ou autre)
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#     Toxic_Air_Force.EnableCA
+#        Cette option permet d'activer le TP dans une zone MJ "Cratère D'Azshara"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+#     Toxic_Air_Force.EnableVDT
+#        Cette option permet d'activer le TP dans une zone MJ "Village des Trolls qui danse"
+#        Default: 1 - activer
+#                 0 - desactiver
+#
+################################################################################################
+
+Toxic_Air_Force.ActifNonActif = 0
+Toxic_Air_Force.TeleGoldCost = 20000 
+Toxic_Air_Force.EnableCataclysme = 0
+Toxic_Air_Force.EnableZone = 1
+Toxic_Air_Force.EnableZoneXP = 1
+Toxic_Air_Force.EnableTeleportationMJ = 1
+
+Toxic_Air_Force.EnableZoneDisco = 1
+MapIDDISCO = 1
+X_posDISCO = 315.721
+Y_posDISCO = -4743.4
+Z_posDISCO = 10.4867
+
+Toxic_Air_Force.EnableZoneFFa = 1
+MapIDFFA = 1
+X_posFFA = 16225.11
+Y_posFFA = 16251.11
+Z_posFFA = 12.7
+
+Toxic_Air_Force.EnableZoneMetier = 1
+MapIDMETIER = 1
+X_posMETIER = 16225.11
+Y_posMETIER = 16251.11
+Z_posMETIER = 12.7
+
+Toxic_Air_Force.EnableZoneCommune = 1
+MapIDCOM = 1
+X_posCOM = 16225.11
+Y_posCOM = 16251.11
+Z_posCOM = 12.7
+
+Toxic_Air_Force.EnableZoneShopping = 1
+MapIDSHOP = 1
+X_posSHOP = 16225.11
+Y_posSHOP = 16251.11
+Z_posSHOP = 12.7
+
+Toxic_Air_Force.EnableIledesMJ = 1
+MapIDMJ = 1
+X_posMJ = 16225.11
+Y_posMJ = 16251.11
+Z_posMJ = 12.7
+
+Toxic_Air_Force.EnableCubeBlanc = 1
+MapIDCUBE = 1
+X_posCUBE = 16227.799
+Y_posCUBE = 16403.400
+Z_posCUBE = -63.879
+
+Toxic_Air_Force.EnableZoneTeste = 1
+MapIDZT = 13
+X_posZT = 3.360
+Y_posZT = 0.221
+Z_posZT = -144.708
+
+Toxic_Air_Force.EnableZoneXPA = 1
+MapIDXPA = 1
+X_posXPA = 16225.11
+Y_posXPA = 16251.11
+Z_posXPA = 12.7
+
+Toxic_Air_Force.EnableZoneXPB = 1
+MapIDXPB = 1
+X_posXPB = 16225.11
+Y_posXPB = 16251.11
+Z_posXPB = 12.7
+
+Toxic_Air_Force.EnableZoneXPC = 1
+MapIDXPC = 1
+X_posXPC = 16225.11
+Y_posXPC = 16251.11
+Z_posXPC = 12.7
+
+Toxic_Air_Force.EnableZoneXPD = 1
+MapIDXPD = 1
+X_posXPD = 16225.11
+Y_posXPD = 16251.11
+Z_posXPD = 12.7
+
+Toxic_Air_Force.EnableZoneXPE = 1
+MapIDXPD = 1
+X_posXPD = 16225.11
+Y_posXPD = 16251.11
+Z_posXPD = 12.7
+
+Toxic_Air_Force.EnableZoneIron = 1
+MapIDIR = 0
+X_posIR = -4821.569
+Y_posIR = -976.549
+Z_posIR = 465.709
+
+Toxic_Air_Force.EnableCA = 1
+MapIDCA = 37
+X_posCA = 208.960
+Y_posCA = 63.029
+Z_posCA = 235.963
+
+Toxic_Air_Force.EnableVDT = 1
+MapIDVDT = 1
+X_posVDT = 7330.819
+Y_posVDT = -1543.199
+Z_posVDT = 161.990
+
